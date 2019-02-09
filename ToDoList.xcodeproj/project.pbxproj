@@ -15,6 +15,10 @@
 		1EABD3B221E7C33C00C180AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EABD3B021E7C33C00C180AA /* LaunchScreen.storyboard */; };
 		1EABD3BD21E7C33C00C180AA /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABD3BC21E7C33C00C180AA /* ToDoListTests.swift */; };
 		1EABD3C821E7C33C00C180AA /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABD3C721E7C33C00C180AA /* ToDoListUITests.swift */; };
+		1EABD3DA21E7D97500C180AA /* SecondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABD3D921E7D97500C180AA /* SecondViewViewController.swift */; };
+		1EF6947621F01D99003A5976 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6947521F01D99003A5976 /* btn.wav */; };
+		1EF6947721F01D99003A5976 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6947521F01D99003A5976 /* btn.wav */; };
+		1EF6947821F01D99003A5976 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1EF6947521F01D99003A5976 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		1EABD3C321E7C33C00C180AA /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EABD3C721E7C33C00C180AA /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		1EABD3C921E7C33C00C180AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EABD3D921E7D97500C180AA /* SecondViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewViewController.swift; sourceTree = "<group>"; };
+		1EF6947521F01D99003A5976 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		1EABD3A321E7C33B00C180AA /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				1EF6947421F01D8A003A5976 /* Sounds */,
 				1EABD3A421E7C33B00C180AA /* AppDelegate.swift */,
 				1EABD3A621E7C33B00C180AA /* ViewController.swift */,
 				1EABD3A821E7C33B00C180AA /* Main.storyboard */,
@@ -106,6 +113,7 @@
 				1EABD3B021E7C33C00C180AA /* LaunchScreen.storyboard */,
 				1EABD3B321E7C33C00C180AA /* Info.plist */,
 				1EABD3AB21E7C33B00C180AA /* ToDoList.xcdatamodeld */,
+				1EABD3D921E7D97500C180AA /* SecondViewViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -126,6 +134,14 @@
 				1EABD3C921E7C33C00C180AA /* Info.plist */,
 			);
 			path = ToDoListUITests;
+			sourceTree = "<group>";
+		};
+		1EF6947421F01D8A003A5976 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1EF6947521F01D99003A5976 /* btn.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +251,7 @@
 				1EABD3B221E7C33C00C180AA /* LaunchScreen.storyboard in Resources */,
 				1EABD3AF21E7C33C00C180AA /* Assets.xcassets in Resources */,
 				1EABD3AA21E7C33B00C180AA /* Main.storyboard in Resources */,
+				1EF6947621F01D99003A5976 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF6947721F01D99003A5976 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF6947821F01D99003A5976 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +281,7 @@
 				1EABD3A721E7C33B00C180AA /* ViewController.swift in Sources */,
 				1EABD3AD21E7C33B00C180AA /* ToDoList.xcdatamodeld in Sources */,
 				1EABD3A521E7C33B00C180AA /* AppDelegate.swift in Sources */,
+				1EABD3DA21E7D97500C180AA /* SecondViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
